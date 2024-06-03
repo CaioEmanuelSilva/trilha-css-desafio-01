@@ -48,3 +48,54 @@ body {
 .botao:hover {
     background-color: #555;
 }
+
+/* Estilos para a classe "lista" */
+.lista {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+/* Estilos para a classe "lista-item" */
+.lista-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+/* Estilos para a classe "lista-item" quando o mouse passa por cima */
+.lista-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para a classe "lista-item-titulo" */
+.lista-item-titulo {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Estilos para a classe "lista-item-descricao" */
+.lista-item-descricao {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Estilos para a classe "lista-item-valor" */
+.lista-item-valor {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Estilos para a classe "lista-item-valor" quando o valor é negativo */
+.lista-item-valor.negativo {
+    color: #f00;
+}
+
+/* Estilos para a classe "lista-item-valor" quando o valor é positivo */
+.lista-item-valor.positivo {
+    color: #0f0;
+}
